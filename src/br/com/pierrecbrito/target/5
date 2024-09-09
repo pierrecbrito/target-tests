@@ -1,0 +1,24 @@
+5) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. 
+Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo 
+é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, 
+qual interruptor controla cada lâmpada?  
+
+
+Primeiro, ligaria o interruptor 1 e deixaria por alguns minutos até desligar. Depois ligaria o interruptor 2.
+
+Visitaria a sala 1. (1) Em caso de a lâmpada tivesse quente, ela seria do interruptor 1; (2) Se tivesse ligada, seria do interruptor 2; 
+(3) Se estivesse fria e desligada, seria do interruptor 3.
+
+Visitaria a sala 2:
+	Caso o teste (1) seja verdadeiro e lâmpada dessa sala tivesse ligada, então o interruptor 1 é da sala 1, o interruptor 2 é da sala 2,
+	e o interruptor 3 é da sala 3.
+	Caso o teste (1) seja verdadeiro e lâmpada dessa sala tivesse desligada, então o interruptor 1 é da sala 1, o interruptor 2 é da sala 3,
+	e o interruptor 3 é da sala 2.
+	Caso o teste (2) seja verdadeiro e lâmpada dessa sala tivesse quente, então o interruptor 1 é da sala 2, o interruptor 1 é da sala 2,
+	e o interruptor 3 é da sala 1.
+	Caso o teste (2) seja verdadeiro e lâmpada dessa sala tivesse desligada, então o interruptor 1 é da sala 3, o interruptor 2 é da sala 1,
+	e o interruptor 3 é da sala 2.
+	Caso o teste (3) seja verdadeiro e lâmpada dessa sala tivesse quente, então o interruptor 1 é da sala 2, o interruptor 1 é da sala 2,
+	e o interruptor 3 é da sala 1.
+	Caso o teste (3) seja verdadeiro e lâmpada dessa sala tivesse ligada, então o interruptor 1 é da sala 3, o interruptor 2 é da sala 2,
+	e o interruptor 3 é da sala 1.
